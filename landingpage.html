@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyWebsite Extended</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background-color: #fdfdfd; color: #333; }
+    .container { width: 90%; max-width: 1200px; margin: auto; padding: 20px; }
+    header::after { content: ""; display: block; clear: both; }
+    .flex { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .card {
+      background: #f0f0f0;
+      padding: 20px;
+      width: 280px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header style="background:#4a90e2; color:white; padding:20px 0;">
+    <div class="container">
+      <h1 style="float:left;">MyWebsite</h1>
+      <nav style="float:right;">
+        <a href="#" style="color:white; text-decoration:none; margin-left:20px; font-weight:bold;">Home</a>
+        <a href="#features" style="color:white; text-decoration:none; margin-left:20px; font-weight:bold;">Features</a>
+        <a href="#about" style="color:white; text-decoration:none; margin-left:20px; font-weight:bold;">About</a>
+        <a href="#testimonials" style="color:white; text-decoration:none; margin-left:20px; font-weight:bold;">Testimonials</a>
+        <a href="#contact" style="color:white; text-decoration:none; margin-left:20px; font-weight:bold;">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section style="background:#e0f7fa; text-align:center; padding:80px 20px;">
+    <div class="container">
+      <h2 style="font-size:2.5rem; margin-bottom:20px;">Build Smarter Websites</h2>
+      <p style="font-size:1.2rem; margin-bottom:30px;">Launch your web presence with modern, mobile-friendly design.</p>
+      <a href="#" style="padding:12px 25px; background:#00796b; color:white; text-decoration:none; border-radius:5px; font-weight:bold;">Start Free Trial</a>
+    </div>
+  </section>
+
+  <section id="features" style="background:#fff; padding:60px 20px; text-align:center;">
+    <div class="container">
+      <h3 style="font-size:2rem; margin-bottom:40px;">Features</h3>
+      <div class="flex">
+        <div class="card">
+          <h4>Fast Loading</h4>
+          <p>Lightning-fast performance with optimized code.</p>
+        </div>
+        <div class="card">
+          <h4>Mobile Responsive</h4>
+          <p>Perfect on phones, tablets, and desktops.</p>
+        </div>
+        <div class="card">
+          <h4>Customizable</h4>
+          <p>Edit colors, text, and layout with ease.</p>
+        </div>
+        <div class="card">
+          <h4>Secure Hosting</h4>
+          <p>SSL & firewalls for a secure browsing experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" style="background:#f9f9f9; padding:60px 20px;">
+    <div class="container">
+      <h3 style="font-size:2rem; text-align:center; margin-bottom:30px;">About Us</h3>
+      <p style="max-width:800px; margin:auto; font-size:1.1rem; line-height:1.6;">
+        MyWebsite is a modern web design solution crafted for small businesses, startups, and freelancers. Our platform combines aesthetics with functionality to deliver a seamless user experience. We believe in empowering users with tools that are both powerful and easy to use—no coding required.
+      </p>
+    </div>
+  </section>
+
+  <section id="testimonials" style="background:#fff; padding:60px 20px; text-align:center;">
+    <div class="container">
+      <h3 style="font-size:2rem; margin-bottom:40px;">What Our Users Say</h3>
+      <div class="flex">
+        <div class="card">
+          <p>"This is by far the easiest and fastest platform I've used!"</p>
+          <strong>- Arjun Mehta</strong>
+        </div>
+        <div class="card">
+          <p>"Clean design, simple setup, and excellent support!"</p>
+          <strong>- Sneha Kapoor</strong>
+        </div>
+        <div class="card">
+          <p>"Perfect for launching a professional website in minutes."</p>
+          <strong>- Ravi Sharma</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="background:#e0f2f1; padding:60px 20px;">
+    <div class="container" style="text-align:center;">
+      <h3 style="font-size:2rem; margin-bottom:20px;">Stay in Touch</h3>
+      <p style="font-size:1.1rem; margin-bottom:30px;">Subscribe to our newsletter and stay updated with the latest features.</p>
+      <input type="email" placeholder="Enter your email" style="padding:10px; width:250px; border:1px solid #ccc; border-radius:5px;"/>
+      <button style="padding:10px 20px; background:#00796b; color:white; border:none; border-radius:5px; margin-left:10px; font-weight:bold;">Subscribe</button>
+    </div>
+  </section>
+
+  <footer style="background:#333; color:#eee; text-align:center; padding:20px 0;">
+    <div class="container">
+      <p>&copy; 2025 MyWebsite. Designed with ❤️ by You.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
